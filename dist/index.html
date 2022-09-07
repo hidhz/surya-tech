@@ -1,0 +1,257 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="output.css" rel="stylesheet">
+  <style>
+  .strokeme{
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  </style>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+<!-- Swal -->
+<link href="//cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+<!-- aos -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="scripts.js"></script>
+</head>
+<body>
+  <!-- Navbar -->
+<div class="navbar bg-base-100 fixed z-[999]">
+  <div class="navbar-start">
+    <div class="dropdown">
+      <label tabindex="0" class="btn btn-ghost btn-circle">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+      </label>
+      <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+        <li><a>Homepage</a></li>
+        <li><a href="#layanan">Layanan</a></li>
+        <li><a href="#keuntungan">Keuntungan</a></li>
+	<li><a>About</a></li>
+	<li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="navbar-center">
+    <a class="btn btn-ghost normal-case text-xl">SuryaTECH</a>
+  </div>
+  <div class="navbar-end">
+    <button class="btn btn-ghost btn-circle">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+    </button>
+    <button class="btn btn-ghost btn-circle">
+      <div class="indicator">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" /></svg>
+        <span class="badge badge-xs badge-primary indicator-item"></span>
+      </div>
+    </button>
+  </div>
+</div>
+
+<!-- baner  -->
+<div class="pt-16">
+<img class="" src="https://i.postimg.cc/Hstj1cfy/IMG-20220906-WA0004.jpg" alt="" />
+</div>
+
+<!-- Jumbotron -->
+<div class="container pt-6 overflow-hidden">
+  <h1 data-aos="fade-down" class="text-5xl font-bold text-slate-600 tracking-wide">Surya Tech</h1>
+  <h1 data-aos="fade-left" class="tracking-wide text-slate-700 text-xl">Teknik Komputer Jaringan</h1>
+  <img data-aos="zoom-in" src="https://img.freepik.com/free-vector/computer-monitor-graphic-animator-creating-video-game-modeling-motion-processing-video-file-using-professional-editor-vector-illustration-graphic-design-art-designer-workplace-concept_74855-13038.jpg?w=740&t=st=1662458840~exp=1662459440~hmac=f992c011a0cea0d848623be9908877a602e3b8eab8b4409f0f038b93879ec6f4" />
+  <p data-aos="fade-right" class="tracking-wide text-slate-800 pt-2">Jasa installasi operating system, installasi and activasi software, pembuatan website, dan lain-lain.</p>
+  <hr class="pt-4 pb-6">
+  <a href="#layanan" class="mt-4 absolute z-2 text-primary border-2 border-primary px-6 py-1 rounded-full">layanan</a>
+</div>
+
+<!-- Layanan -->
+<div class="container pt-16 overflow-hidden" id="layanan">
+  <h1 data-aos="zoom-in" class="text-7xl text-primary font-bold strokeme">Layanan</h1>
+  <h1 data-aos="fade-up" class="text-5xl font-semibold text-slate-800">Kami</h1>
+
+  <!-- list layanan -->
+  <!-- win -->
+  <div class="rounded-md px-4 py-4 border-2 border-teal-500 flex mt-4">
+    <div>
+      <h1 data-aos="zoom-in" class="font-bold text-3xl">Jasa <span class="text-emerald-600">Installasi</span></h1>
+      <h1 data-aos="fade-left" class="font-bold text-3xl">OS <span class="text-4xl text-teal-500">Windows</span></h1>
+      <button data-aos="fade-left" class="mt-12 px-4 py-1 bg-teal-500 rounded-full font-bold text-white"><a href="https://wa.me/6285859813922">pesan jasa</a></button>
+    </div>
+    <div>
+      <img data-aos="zoom-out" class="w-40" src="https://img.freepik.com/free-vector/operating-system-concept-illustration_114360-1915.jpg?w=740&t=st=1662464620~exp=1662465220~hmac=3346ead7438088a6e6876da573506b271d608311e34adc4c233c87a3de2c62ba" alt=""  />
+    </div>
+  </div>
+  <!-- app -->
+  <div class="rounded-md px-4 py-4 border-2 border-primary flex mt-4">
+    <div>
+      <h1 data-aos="zoom-in" class="font-bold text-2xl">Jasa <span class="text-primary">Installasi</span></h1>
+      <h1 data-aos="fade-left" class="font-bold text-2xl">dan Aktivasi <span class="text-4xl text-primary">Software</span></h1>
+      <button data-aos="fade-left" class="mt-6 px-4 py-1 bg-primary rounded-full font-bold text-white"><a href="https://wa.me/6285859813922">pesan jasa</a></button>
+    </div>
+    <div>
+      <img data-aos="zoom-out" class="w-64" src="https://img.freepik.com/free-vector/system-administrator-technical-work-with-server-software-installation-configuration-computer-systems-networks-flat-vector-illustration_613284-1460.jpg?w=740&t=st=1662468202~exp=1662468802~hmac=626e2e3e503b8801ed1ba847658010473b3b4a6c32099d15c5bf6609d3090886" alt="">
+    </div>
+  </div>
+  <!-- web -->
+  <div class="rounded-md px-4 py-4 border-2 border-rose-700 flex mt-4">
+    <div>
+      <h1 data-aos="zoom-in" class="font-bold text-rose-600 text-4xl">Website</h1>
+      <h1 data-aos="fade-left" class="font-bold text-md">Landing <span class="text-2xl text-rose-700">Page</span></h1>
+      <button data-aos="fade-left" onclick="kliklweb()" class="mt-6 px-4 py-1 bg-rose-700 rounded-full font-bold text-white">pesan jasa</button>
+    </div>
+    <div>
+      <img data-aos="zoom-out" class="w-64" src="https://img.freepik.com/free-vector/javascript-frameworks-concept-illustration_114360-743.jpg?w=740&t=st=1662469308~exp=1662469908~hmac=d1e86e92ed986f7eca35dddec53fec74ffb1e151911ca01c986ed15a239bc520" alt="">
+    </div>
+  </div>
+</div>
+
+<!-- Keuntungan -->
+<div class="container pt-12 overflow-hidden" id="keuntungan">
+  <h1 data-aos="zoom-in" class="font-semibold text-slate-800 text-md">Keuntungan</h1>
+  <!-- harga -->
+  <div class="flex pt-4">
+    <div>
+      <h1 data-aos="fade-down" class="text-6xl text-slate-800">
+	<i class="fa-solid fa-coins"></i>
+      </h1>
+    </div>
+    <div class="ml-3">
+      <h1 data-aos="zoom-in" class="font-semibold text-xl">Harga <span class="bg-primary rounded-full px-4 py-1 text-white">Murah</span></h2>
+      <p data-aos="fade-left">Memberikan solusi dengan harga yang terjangkau mengenai masalah anda dalam bidang IT.</p>
+    </div>
+  </div>
+  <!-- terpercaya  -->
+  <div class="flex pt-4">
+    <div>
+      <h1 data-aos="fade-down" class="text-6xl text-slate-800">
+       <i class="fa-solid fa-handshake"></i>
+      </h1>
+    </div>
+    <div class="ml-3">
+      <h1 data-aos="zoom-in" class="font-semibold text-xl">Amanah</h2>
+      <p data-aos="fade-left">Kami memastikan bahwa kami dapat dipercaya, dan akan menyelesaikan aplikasi sesuai dengan keinginan kamu.</p>
+    </div>
+  </div>
+  <!-- tanggung jawab -->
+  <div class="flex pt-4">
+    <div>
+      <h1 data-aos="fade-down" class="text-6xl text-slate-800">
+       <i class="fa-solid fa-thumbs-up"></i>
+      </h1>
+    </div>
+    <div class="ml-3">
+      <h1 data-aos="zoom-in" class="font-semibold text-xl">Taggung jawab</h2>
+      <p data-aos="fade-left">Kami memastikan bahwa tidak ada kelalaian dalam menyelesaikan tugas sesuai dengan keinginan kamu.</p>
+    </div>
+  </div>
+</div>
+
+<!-- more -->
+<div class="container pt-12 overflow-hidden">
+  <h1 data-aos="fade-down" class="text-slate-800 text-md font-bold">More</h1>
+  <div>
+    <h1 data-aos="fade-left" class="w-full bg-primary text-white font-bold text-2xl px-4 py-6 rounded-md">About</h1>
+  </div>
+    <!-- Kontak START -->
+    <section id="kontak">
+        <div class="pt-4 overflow-hidden">
+            <div class="w-full">
+                <div class="w-full self-center px-4">
+                    <h1 data-aos="zoom-in-out" class="text-base font-semibold text-primary md:text-xl lg:text-2xl underline">Contact</h1>
+                    <h2 data-aos="fade-left" class="font-medium text-primary text-2xl text-center">Hubungi Kami</h2>
+                    <p data-aos="zoom-in-right" class="font-medium text-secondary2 mb-6 leading-relaxed text-center">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                 </div>
+            </div>
+                <form>
+                    <div class="w-full lg:w-2/3 mx-auto">
+                        <div class="w-full px-4 mb-8">
+                            <label data-aos="zoom-in-out" for="nama" class="text-base font-bold text-primary">Nama</label>
+                            <input data-aos="zoom-out-left" class="w-full bg-slate-200 text-slate-800 p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary" type="text" name="nama" id="nama" placeholder="Masukan nama anda"/>
+                        </div>
+                        <div class="w-full px-4 mb-8">
+                            <label data-aos="zoom-in-out" for="email" class="text-base font-bold text-primary">Email</label>
+                            <input data-aos="zoom-out-left" class="w-full bg-slate-200 text-slate-800 p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary" type="email" name="email" id="email" placeholder="Masukan email anda"/>
+                        </div>
+                        <div class="w-full px-4 mb-8">
+                           <label data-aos="zoom-in-out" for="pesan" class="text-base font-bold text-primary">Pesan</label>
+                            <textarea data-aos="zoom-out-left" class="w-full bg-slate-200 text-slate-800 p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-32" type="text" name="pesan" id="pesan" placeholder="Masukan pesan anda"></textarea>
+                        </div>
+                        <div class="w-full px-4">
+                            <button data-aos="zoom-in-out" type="submit" class="text-base font-bold bg-primary px-10 py-2 text-white hover:bg-sky-900 rounded-full w-full">Kirim</button>
+                        </div>
+                    </div>
+                </form>
+        </div>
+    </section>
+    <!-- Kontak END -->
+</div>
+
+  <!-- Footer START -->
+    <footer class="bg-dark mt-36 pt-12 overflow-hidden">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-12 font-medium text-slate-300 lg:w-1/2">
+                    <h2 class="font-bold text-4xl text-primary mb-5">Surya TECH</h2>
+                    <h3 class="font-bold text-2xl mb-2">Kontak Kami</h3>
+                    <p><i class="fa-solid fa-envelope icon-style2"></i> hidhzdev@gmail.com</p>
+                    <p><i class="fa-brands fa-whatsapp icon-style2"></i> +6281216935644</p>
+                    <p><i class="fa-solid fa-location-dot icon-style2"></i> Jl. Raya Mranggen, purwoasri, Kediri</p>
+                    <p>Jawa Timur</p>
+                </div>
+                <div class="w-full px-4 mb-12 font-medium text-slate-300 lg:w-1/2">
+                    <h2 class="font-bold text-xl text-primary mb-2">Layanan</h2>
+                    <ul>
+                        <li>Installasi OS Windows</li>
+                        <li>Install and activasi software</li>
+                        <li>Landing page Website</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="w-full pb-4 pt-6 ">
+                <hr class="border-slate-700">
+                <h1 class="pt-4 text-center font-semibold text-base text-slate-400">Made With <span class="text-pink-500">❤️</span> by @hidhz</h1>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer END -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
