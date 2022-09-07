@@ -17,7 +17,7 @@ function kliklwin(){
 	      <ul class="list-decimal ml-4">
 		<li>Microsoft Office</li>
 		<li>Corel Draw</li>
-		<li>Adobe pscc 2019</li>
+		<li>Adobe pscc 2017</li>
 		<li>zoom</li>
 		<li>dan lain-lain</li>
 	      </ul>
