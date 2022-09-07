@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.animasiku {
+  transition: all .3s ease-in-out; 
+}
+.animasiku:hover { 
+  transform: scale(.9); 
+}

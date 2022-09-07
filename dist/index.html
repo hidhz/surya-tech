@@ -19,7 +19,8 @@
 <script src="scripts.js"></script>
 </head>
 <body>
-  <!-- Navbar -->
+<div class="absolute z-[999] bg-white overflow-hidden" id="newElement"></div>  
+<!-- Navbar -->
 <div class="navbar bg-base-100 fixed z-[999]">
   <div class="navbar-start">
     <div class="dropdown">
@@ -73,29 +74,29 @@
 
   <!-- list layanan -->
   <!-- win -->
-  <div class="rounded-md px-4 py-4 border-2 border-teal-500 flex mt-4">
+  <div class="animasiku rounded-md px-4 py-4 border-2 border-teal-500 flex mt-4">
     <div>
       <h1 data-aos="zoom-in" class="font-bold text-3xl">Jasa <span class="text-emerald-600">Installasi</span></h1>
       <h1 data-aos="fade-left" class="font-bold text-3xl">OS <span class="text-4xl text-teal-500">Windows</span></h1>
-      <button data-aos="fade-left" class="mt-12 px-4 py-1 bg-teal-500 rounded-full font-bold text-white"><a href="https://wa.me/6285859813922">pesan jasa</a></button>
+      <button onclick="kliklwin()" data-aos="fade-left" class="mt-12 px-4 py-1 bg-teal-500 rounded-full font-bold text-white">pesan jasa</button>
     </div>
     <div>
       <img data-aos="zoom-out" class="w-40" src="https://img.freepik.com/free-vector/operating-system-concept-illustration_114360-1915.jpg?w=740&t=st=1662464620~exp=1662465220~hmac=3346ead7438088a6e6876da573506b271d608311e34adc4c233c87a3de2c62ba" alt=""  />
     </div>
   </div>
   <!-- app -->
-  <div class="rounded-md px-4 py-4 border-2 border-primary flex mt-4">
+  <div class="animasiku rounded-md px-4 py-4 border-2 border-primary flex mt-4">
     <div>
       <h1 data-aos="zoom-in" class="font-bold text-2xl">Jasa <span class="text-primary">Installasi</span></h1>
       <h1 data-aos="fade-left" class="font-bold text-2xl">dan Aktivasi <span class="text-4xl text-primary">Software</span></h1>
-      <button data-aos="fade-left" class="mt-6 px-4 py-1 bg-primary rounded-full font-bold text-white"><a href="https://wa.me/6285859813922">pesan jasa</a></button>
+      <button onclick="kliklapp()" data-aos="fade-left" class="mt-6 px-4 py-1 bg-primary rounded-full font-bold text-white">pesan jasa</button>
     </div>
     <div>
       <img data-aos="zoom-out" class="w-64" src="https://img.freepik.com/free-vector/system-administrator-technical-work-with-server-software-installation-configuration-computer-systems-networks-flat-vector-illustration_613284-1460.jpg?w=740&t=st=1662468202~exp=1662468802~hmac=626e2e3e503b8801ed1ba847658010473b3b4a6c32099d15c5bf6609d3090886" alt="">
     </div>
   </div>
   <!-- web -->
-  <div class="rounded-md px-4 py-4 border-2 border-rose-700 flex mt-4">
+  <div class="animasiku rounded-md px-4 py-4 border-2 border-rose-700 flex mt-4">
     <div>
       <h1 data-aos="zoom-in" class="font-bold text-rose-600 text-4xl">Website</h1>
       <h1 data-aos="fade-left" class="font-bold text-md">Landing <span class="text-2xl text-rose-700">Page</span></h1>
