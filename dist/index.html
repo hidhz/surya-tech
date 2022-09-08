@@ -60,7 +60,9 @@
 <!-- Jumbotron -->
 <div class="container pt-6 overflow-hidden">
   <h1 data-aos="fade-down" class="text-5xl font-bold text-slate-600 tracking-wide">Surya Tech</h1>
-  <h1 data-aos="fade-left" class="tracking-wide text-slate-700 text-xl">Teknik Komputer Jaringan</h1>
+  <div class="relative">
+    <h1 data-aos="fade-left" class="absolute tracking-wide text-slate-700 text-xl element"></h1>
+  </div>
   <img data-aos="zoom-in" src="https://img.freepik.com/free-vector/computer-monitor-graphic-animator-creating-video-game-modeling-motion-processing-video-file-using-professional-editor-vector-illustration-graphic-design-art-designer-workplace-concept_74855-13038.jpg?w=740&t=st=1662458840~exp=1662459440~hmac=f992c011a0cea0d848623be9908877a602e3b8eab8b4409f0f038b93879ec6f4" />
   <p data-aos="fade-right" class="tracking-wide text-slate-800 pt-2">Jasa installasi operating system, installasi and aktivasi software, pembuatan website, dan lain-lain.</p>
   <hr class="pt-4 pb-6">
@@ -180,7 +182,7 @@
                             <textarea data-aos="zoom-out-left" class="w-full bg-slate-200 text-slate-800 p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-32" type="text" name="pesan" id="pesan" placeholder="Masukan pesan anda"></textarea>
                         </div>
                         <div class="w-full px-4">
-                            <button data-aos="zoom-in-out" type="submit" class="text-base font-bold bg-primary px-10 py-2 text-white hover:bg-sky-900 rounded-full w-full">Kirim</button>
+                            <button onclick="kirimEmail()" data-aos="zoom-in-out" type="submit" class="text-base font-bold bg-primary px-10 py-2 text-white hover:bg-sky-900 rounded-full w-full">Kirim</button>
                         </div>
                     </div>
                 </form>
@@ -197,7 +199,7 @@
                     <h2 class="font-bold text-4xl text-primary mb-5">Surya TECH</h2>
                     <h3 class="font-bold text-2xl mb-2">Kontak Kami</h3>
                     <p><i class="fa-solid fa-envelope icon-style2"></i> hidhzdev@gmail.com</p>
-                    <p><i class="fa-brands fa-whatsapp icon-style2"></i> +6281216935644</p>
+                    <p><i class="fa-brands fa-whatsapp icon-style2"></i> +6285859813922</p>
                     <p><i class="fa-solid fa-location-dot icon-style2"></i> Jl. Raya Mranggen, purwoasri, Kediri</p>
                     <p>Jawa Timur</p>
                 </div>
@@ -217,9 +219,23 @@
         </div>
     </footer>
     <!-- Footer END -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
+    var typed = new Typed('.element', {
+      strings: [ "Surya TECH Melayani",
+	"Installasi Windows",
+	"Website Landing Page",
+	"Install dan Aktivasi Software",
+      ],
+      typeSpeed: 75,
+      loop: true,
+      loopCount: Infinity,
+      showCursor: true,
+      cursorChar: '|',
+      autoInsertCss: true,
+    });
   </script>
 </body>
 </html>

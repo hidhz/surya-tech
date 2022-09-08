@@ -1811,6 +1811,10 @@ html {
   position: absolute;
 }
 
+.relative {
+  position: relative;
+}
+
 .z-\[999\] {
   z-index: 999;
 }
