@@ -88,8 +88,8 @@ function kliklweb(){
         <p class="text-white">Website Landing Page</p>
         <p class="pt-2 text-white">Buat website anda menggunakan jasa kami. Aman, terpercaya dan murah.</p>
         <hr class="border-white mt-4 pb-4">
-        <p class="line-through text-white">Rp. 120.000</p>
-        <h1 class="text-white font-bold text-3xl">Rp. 100.000</h1>
+        <p class="line-through text-white">Rp. 80.000</p>
+        <h1 class="text-white font-bold text-3xl">Rp. 50.000</h1>
         <div class="pt-6">
           <h1 class="text-primary text-xl font-bold">Layanan</h1>
           <ul class="list-disc text-white ml-2">
