@@ -100,7 +100,7 @@ function kliklweb(){
 	    <li>Panduan setup</li>
             <li>simple web</li>
           </ul>
-	  <a class="mt-4 px-5 py-1 font-bold text-white bg-primary rounded-md" href="https://hidhz.netlify.app">demo</a>
+	  <a class="mt-4 px-5 py-1 font-bold text-white bg-primary rounded-md" href="">demo</a>
         </div>
     </div>`,
   imageUrl: 'https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg?w=740&t=st=1662589262~exp=1662589862~hmac=328620590bf42d357a3581d3fe1360d664d6211e155d38f00dd4f81b6ca98457',
